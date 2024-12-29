@@ -1,0 +1,23 @@
+.btn {
+    @apply px-6 py-3 rounded-lg shadow-lg font-semibold text-white transition-all duration-200;
+}
+
+.btn-primary {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700;
+}
+
+.btn-success {
+    @apply bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700;
+}
+
+.btn-danger {
+    @apply bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700;
+}
+
+.btn:disabled {
+    @apply opacity-75 cursor-not-allowed;
+}
+
+.btn-icon {
+    @apply inline-flex items-center justify-center gap-2;
+}
